@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #04ADBF;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
+
+body {
+    background-color: #04ADBF;
+    background-image: url("https://www.transparenttextures.com/patterns/escheresque-dark.png");
+    padding: 30px;
+}
+
+.chat {
+    height: 70vh;
+    overflow: auto;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 16px 16px;
+    background: rgba(4, 173, 191, 0.16);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+}
+
+.chat .mensagemUsuario {
+    margin-left: auto;
+}
+
+.envio input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.envio button {
+    width: 9%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    background-color: #04ADBF;
+    color: white;
+}
+
+.envio button:hover {
+    background-color: #fff;
+    color: #04ADBF;
+}
+
+.headerusu {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    outline: none;
+    background-color: #04ADBF;
+    color: white;
+    font-size: 15px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.mensagem {
+    margin: 10px;
+    text-align: left;
+    background-color: #23666E;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.mensagemUsuario {
+    text-align: right;
+    margin: 10px;
+    background-color: #05D6ED;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
